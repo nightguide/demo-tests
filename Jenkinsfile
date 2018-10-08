@@ -22,7 +22,7 @@ pipeline {
       stage('Unit Tests') {
       steps {
      
-	      allure ([results: [[path: 'target/allure-results']] ])
+	      allure ([results: [[path:' target/surefire-reports/*.xml']] ])
  
       }
         
