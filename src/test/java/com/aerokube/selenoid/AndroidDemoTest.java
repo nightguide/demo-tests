@@ -35,7 +35,7 @@ public class AndroidDemoTest {
 //        device.setCapability("enableVideo", true); // Uncomment this to record video
 
         driver = new RemoteWebDriver(new URL(
-                "http://selenoid.example.com:4444/wd/hub" //Replace with correct host and port
+                "http://172.23.44.110:30012/wd/hub" //Replace with correct host and port
         ), device);
     }
 
