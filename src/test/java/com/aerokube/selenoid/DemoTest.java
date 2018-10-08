@@ -21,7 +21,7 @@ public class DemoTest {
     public void openDriver() throws Exception {
         final DesiredCapabilities browser = DesiredCapabilities.chrome();
         driver = new RemoteWebDriver(new URL(
-                "http://10.233.26.89:30012/wd/hub" //Replace with correct host and port
+                "http://172.23.44.110:30012/wd/hub" //Replace with correct host and port
         ), browser);
     }
 
